@@ -30,5 +30,4 @@ buttons.forEach( button => {
         }
     })
 })
-
 //The eval() function evaluates JavaScript code represented as a string and returns its completion value.

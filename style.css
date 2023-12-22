@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: #e3f9ff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.calculator {
+    width: 410px;
+    height: 530px;
+    background: #3a4452;
+    text-align: center;
+    margin: 10vh auto;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+.row {
+    margin: 8px 2px;
+    background: #3a4452;
+}
+
+.button {
+    width: 66px;
+    height: 66px;
+    /* padding: 20px; */
+    margin: 0 3px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    border: none;
+}
+
+.button:hover {
+    background-color: #242b36;;
+}
+
+.row input {
+    color: #ffffff;
+    text-align: right;
+    width: 291px;
+    font-size: 27px;
+    margin: 0;
+    padding: 12px 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.operator {
+    font-size: 18px;
+    color: #33ffd8;
+}
+
+.answer {
+    width: 140px;
+    color: #33ffd8;
+}
